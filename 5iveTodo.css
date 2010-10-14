@@ -1,0 +1,107 @@
+
+* {
+  font-family: "Lucida Sans", "Arial", "Helvetica", sans-serif;
+}
+
+html {
+
+  font-size: 62.5%;
+}
+
+body {
+  
+  min-height: 100%;
+  width: 480px; margin: 0px auto;
+  background: grey;
+  padding: 30px;
+}
+
+header {
+  text-align: center;
+  padding: 5px;
+}
+header h1 {
+  font-size: 36px; 
+  text-shadow: 2px 2px 5px #333;
+  color: #993333;
+}
+
+header h2 {
+  font-size: 18px;  color: #888;
+  font-style: italic;
+}
+
+article > header h1 {
+  font-size: 20px; float: left;
+  margin-left: 14px; text-shadow: 2px 2px 5px #333;
+}
+
+article > header h1 a {
+  color: #993333;
+}
+
+article > section header h1 {
+  font-size: 16px;
+  margin-left: 14px; 
+  margin-top: 10px;
+}
+
+
+article .charsRemaining{
+  font-size: 12px;
+  display:inline-block;
+  min-width:150px;
+  clear:left;
+  padding:0px 8px;
+  color: #888; 
+}
+
+footer p {
+  text-align: center; font-size: 12px;
+  color: #888; 
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+ul.list { 
+  padding: 5px;
+  margin: 5px;
+  list-style-type: none
+}
+
+ul.list li {
+  position: relative;
+  overflow: hidden;
+  padding: 3px 5px;
+  min-height: 1.5em; line-height: 1.2em;
+  padding-right: 31px;
+}
+
+ul.list span.text {
+  word-wrap: break-word;
+}
+
+ul.list span.li-delete {
+  position: absolute;
+  right: 10px;
+  top: 3px;
+  cursor: auto;
+}
+
+div#input_text {
+  margin: 5px; padding: 5px;
+}
+
+textarea {
+  clear:both;
+  overflow: auto;
+  resize: none;
+  width: 99%;
+}
+
+textarea#currentEdit {
+  border: none;
+  padding: 0;
+    width: 100%;
+
+}

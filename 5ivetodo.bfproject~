@@ -1,0 +1,11 @@
+name: Neues Projekt
+files: /home/skarabo/projekte/5iveTodo/5iveTodo.css
+files: /home/skarabo/projekte/5iveTodo/index.html
+basedir: /home/skarabo/projekte/5iveTodo/
+webdir: 
+template: 
+word_wrap: 0
+view_html_toolbar: 1
+view_custom_menu: 1
+view_main_toolbar: 1
+view_left_panel: 1
